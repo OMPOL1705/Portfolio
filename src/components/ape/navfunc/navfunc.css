@@ -1,0 +1,40 @@
+.homenavbar1{
+    background-color: #1b1b1b;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+    overflow: hidden;
+    align-items: center;
+    height: 30px;
+}
+
+@media screen and (max-width: 480px) {
+    
+  .homenavbar1{
+    height: 35px;
+}
+
+} 
+
+.tab-icons1 {
+    display: flex;
+    justify-content: space-between;
+    width: 60px; /* Adjust the width as needed */
+  }
+
+.tabname{
+    filter: brightness(1.5);
+}  
+  .circle1 {
+    width: 30px !important;
+    height: 10px; /* Adjust the color as needed */
+    border-radius: 50%;
+    margin: 5px; /* Adjust the spacing between circles */
+  }
+
+.circle1:hover{
+    cursor: pointer;
+    opacity: 2;
+}  
+  

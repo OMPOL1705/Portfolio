@@ -1,0 +1,8 @@
+.battery{
+    display: flex;
+    align-items: center;
+}
+
+.battery p{
+    margin: 0px 5px;
+}
