@@ -16,6 +16,12 @@
   align-items: center;
 }
 
+@media screen and (max-width: 480px) {
+  .main{
+    height: 90vh;
+  }
+}
+
 .mainhome{
   border: 6px solid gray;
   border-radius: 50px;
