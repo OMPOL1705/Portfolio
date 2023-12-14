@@ -14,7 +14,7 @@ const Mynav = () => {
         </Link>
         </div>
         <div className="nav-link">
-        <Link aria-current="page" to="/projects" oncl>
+        <Link aria-current="page" to="/projects">
             <img src="/png-transparent-visual-studio-code-hd-logo-thumbnail-removebg-preview.png" alt=''/>
             <p className='img__description'>Projects</p>
         </Link>

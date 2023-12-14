@@ -7,12 +7,59 @@
     overflow: hidden;
 }
 
+.main2.fullscreen{
+    width: 80vw;
+    height: 200vh;
+    transition: 1s ease-in-out;
+    top: 0;
+    left: 0;
+}
+
+.main2.fullscreen::after{
+    transition: 2s ease-in;
+    width: 50vw;
+    height: 53vh;
+    background-color: #192841;
+    color: white;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+@keyframes slide-in{
+    0%{
+        width: 50vw;
+        height: 53vh;
+    }
+    50%{
+        width: 40vw;
+        height: 40vh;
+    }
+    100%{
+        width: 0vw;
+        height: 0vh;
+    }
+}
+
+.main2.minimize{
+    animation-name: slide-in;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+}
+
 
 @media screen and (max-width: 480px) {
     
     .main2{
         width: 77vw;
         height: 60vh;
+    }
+
+    .main2.fullscreen{
+        width: 77vw;
+        height: 60vh;
+        transition: 1s ease-in-out;
+        top: 0;
+        left: 0;
     }
 
   } 
