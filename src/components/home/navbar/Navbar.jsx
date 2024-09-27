@@ -39,7 +39,7 @@ const Navbar = () => {
         <div className="circle" style={{backgroundColor: "rgb(19, 173, 19)"}}></div>
       </div>
         <div className="date">
-          <p>{datearr[currentTime.getMonth()] + " " + currentTime.getDate() + " " + formattedTime}</p>
+          <p>{datearr[currentTime.getMonth()] + "    " + currentTime.getDate() + "    " + formattedTime}</p>
         </div>
         <div className="battery">
           <BatteryStatus />
